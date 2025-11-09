@@ -1,6 +1,11 @@
 #  UDP Chat in C 
 
+
+
 ## A simple chat implementation based on the UDP protocol using POSIX sockets (Linux)
+
+
+![7777777](https://github.com/user-attachments/assets/43544919-72b5-4545-84bf-bbf341a46a76)
 
 
 >## Features :dart:
@@ -23,12 +28,55 @@
 
 >## Install :rocket:
 ```
-https://github.com/hexmuse/UDP-chat.git
+git clone https://github.com/hexmuse/UDP-chat.git
 ```
 
 
 
 
 >## Build :hammer:
+Go to the root directory of the project
+
+```
+cd UDP-chat
+```
+
+Build the project using Makefile:
+
+```
+make all
+```
+
+After a successful build you will receive server and client executable files in the bin/ directory
+
+
+
+
+
+
+
+> ## Commands :pushpin:
+```
+/register <username> <password>
+```
+```
+/login <username> <password>
+```
+```
+/quit
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
